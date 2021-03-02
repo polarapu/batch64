@@ -10,3 +10,18 @@ sample data on 2nd march
 amend
 -----
 git commit --amend -m "label" -m "label2" -m "label3"
+git status
+git config --global alias.s "status"
+git s
+
+git stash list
+git config --global alias.sl "stash list"
+git sl
+
+git log
+git config --global alias.l "log"
+git l
+
+git log --oneline
+git config --global alias.l1 "log --oneline"
+git l1
